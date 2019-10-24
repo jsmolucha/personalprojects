@@ -2,9 +2,10 @@ package employee;
 
 public class ProductionWorker extends SmoluchaEmployee {
 
-	public ProductionWorker(String name, String number, String date) {
-		super(name, number, date);
-	} 
+	public ProductionWorker(String name, String number, String date)  {
+			super(name, number, date);
+	}
+	
 	private int empShift;
 	private double HourlyPay;
 	
