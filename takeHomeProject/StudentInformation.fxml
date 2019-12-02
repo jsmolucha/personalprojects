@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="740.0" prefWidth="900.0" styleClass="theme" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="takeHomeProject.StudentInfoController">
+   <children>
+      <DatePicker fx:id="registrationDatePicker" layoutX="179.0" layoutY="188.0" />
+      <TextField fx:id="txtStudentID" layoutX="179.0" layoutY="225.0" prefHeight="25.0" prefWidth="174.0" promptText="Student ID" />
+      <TextField fx:id="txtFirstName" layoutX="179.0" layoutY="264.0" prefHeight="25.0" prefWidth="174.0" promptText="First Name" />
+      <TextField fx:id="txtLastName" layoutX="465.0" layoutY="264.0" prefHeight="25.0" prefWidth="174.0" promptText="Last Name" />
+      <TextField fx:id="txtParentName" layoutX="179.0" layoutY="300.0" prefHeight="25.0" prefWidth="174.0" promptText="Parents name" />
+      <TextField fx:id="txtPhoneNumber" layoutX="179.0" layoutY="336.0" prefHeight="25.0" prefWidth="174.0" promptText="Phone Number" />
+      <ComboBox fx:id="cboStudentMajor" layoutX="179.0" layoutY="375.0" prefHeight="25.0" prefWidth="174.0" promptText="Major Picker" />
+      <DatePicker fx:id="dobDatePicker" layoutX="179.0" layoutY="413.0" prefHeight="25.0" prefWidth="174.0" promptText="Date of Birth" />
+      <TextArea fx:id="txtDisplayArea" layoutX="62.0" layoutY="450.0" prefHeight="162.0" prefWidth="456.0" promptText="Student Information" />
+      <Button fx:id="btnRegister" layoutX="420.0" layoutY="628.0" mnemonicParsing="false" text="Register" />
+      <Button fx:id="btnCancel" layoutX="500.0" layoutY="628.0" mnemonicParsing="false" text="Cancel" />
+      <ImageView fitHeight="172.0" fitWidth="344.0" layoutX="494.0" layoutY="55.0">
+         <image>
+            <Image url="@../../../../Desktop/imagee.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="62.0" layoutY="189.0" text="Registration Date: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="227.0" text="Student ID: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="267.0" text="First Name: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="303.0" text="Last Name: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="339.0" text="Phone Number: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="378.0" text="Student Major: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="416.0" text="Student DOB: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="267.0" text="Last Name: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
