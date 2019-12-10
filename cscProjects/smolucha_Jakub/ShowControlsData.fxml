@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smolucha_Jakub.SmoluchaController">
+   <children>
+      <TextField fx:id="txtstudentid" layoutX="99.0" layoutY="107.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextField fx:id="txtfirstname" layoutX="99.0" layoutY="141.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextField fx:id="txtlastname" layoutX="99.0" layoutY="175.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextField fx:id="txtstreet" layoutX="99.0" layoutY="207.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextField fx:id="txtcity" layoutX="99.0" layoutY="238.0" prefHeight="25.0" prefWidth="103.0" />
+      <TextField fx:id="txtstate" layoutX="236.0" layoutY="238.0" prefHeight="25.0" prefWidth="48.0" />
+      <TextField fx:id="txtzip" layoutX="324.0" layoutY="238.0" prefHeight="25.0" prefWidth="48.0" />
+      <Label layoutX="25.0" layoutY="111.0" text="Student ID:" />
+      <Label layoutX="25.0" layoutY="145.0" text="First Name:" />
+      <Label layoutX="25.0" layoutY="179.0" text="Last Name:" />
+      <Label layoutX="26.0" layoutY="211.0" text="Street" />
+      <Label layoutX="32.0" layoutY="242.0" text="City" />
+      <Label layoutX="206.0" layoutY="242.0" text="State" />
+      <Label layoutX="290.0" layoutY="242.0" text="Zip" />
+      <Button fx:id="btnAdd" layoutX="84.0" layoutY="355.0" mnemonicParsing="false" text="add" />
+      <Button fx:id="btnFirst" layoutX="132.0" layoutY="355.0" mnemonicParsing="false" text="first" />
+      <Button fx:id="btnNext" layoutX="184.0" layoutY="355.0" mnemonicParsing="false" text="next" />
+      <Button fx:id="btnPrev" layoutX="241.0" layoutY="355.0" mnemonicParsing="false" text="Previous" />
+      <Button fx:id="btnLast" layoutX="318.0" layoutY="355.0" mnemonicParsing="false" text="last" />
+      <Button fx:id="btnUpdate" layoutX="372.0" layoutY="355.0" mnemonicParsing="false" text="update" />
+   </children>
+</AnchorPane>
