@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Happy Harrys Inventory Form</title>
+</head>
+<body>
+<h1 id="page_header">Happy Harrys Hardware Inventory Form </h1>
+<div id="center_form">
+
+    <p id="form_title">Inventory Control Form</p>
+
+    <form id="tool_select" class="main_form">
+        <label>Select an item: </label>
+        <label id="sel_hammer">
+            <input type="radio" name="opt_hammer">Hammer
+        </label>
+        <label id="sel_wrench">
+            <input type="radio" name="opt_wrench">Wrench
+        </label>
+    </form>
+
+    <form id="tool_quantity" class="main_form">
+        <label>How many did you sell: </label>
+            <select id="quantity" name="sel_number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+    </form>
+
+    <form id="emp_number" class="main_form">
+        <label>What is your associate employee id: </label>
+        <select id="employee" name="sel_id">
+            <option value="101">101</option>
+            <option value="201">201</option>
+            <option value="301">301</option>
+        </select>
+    </form>
+
+    <form id="pass_input" class="main_form">
+        <label>What is the password: </label>
+        <input  id="password" name="type_pass">
+    </form>
+
+    <form id="email_input" class="main_form">
+        <label>Enter a valid email address: </label>
+        <input id="email" name="type_email">
+    </form>
+
+    <form id="add_options" class="main_form">
+        <label>Click all that apply for this item: </label><br>
+         <input type="checkbox" id="opt1" name="originalPackage" value="Y">
+            <label for="opt1"> It is in the original packaging: </label><br>
+
+          <input type="checkbox" id="opt2" name="onShelf" value="Y">
+                    <label for="opt2"> It is on the shelf: </label><br>
+
+          <input type="checkbox" id="opt3" name="customerReturned" value="Y">
+                    <label for="opt3"> It was returned from customer: </label><br>
+    </form>
+
+    <form id="sub_button" class="main_form">
+        <input type="submit" value="submit it">
+    </form>
+
+</div>
+
+<h2 id="form_thank">Thank you for filling out our form</h2>
+
+</body>
+</html>

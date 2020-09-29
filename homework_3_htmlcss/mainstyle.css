@@ -1,0 +1,37 @@
+#page_header {
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+}
+
+#center_form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 375px;
+    background-color: #d9e9ff;
+    border: 2px solid black;
+}
+
+#form_title {
+    margin: 0;
+    background-color: #a8f69b;
+    font-size: 30px;
+    border-bottom: white;
+    border-style: ridge;
+}
+
+.main_form {
+    border: ridge white;
+    margin: 0;
+    padding: 1px;
+}
+
+#form_thank {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: teal;
+}
